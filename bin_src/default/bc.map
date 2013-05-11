@@ -1,0 +1,855 @@
+Archive member included because of file (symbol)
+
+C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_tasking.o)
+                              c_startup.o (IntProlog)
+C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_timequeue.o)
+                              c_startup.o (AvrXDelay)
+C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+                              C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_timequeue.o) (_TimerQueue)
+C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_semaphores.o)
+                              C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_timequeue.o) (AvrXWaitTimer)
+C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_message.o)
+                              C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_timequeue.o) (AvrXIntSendMessage)
+C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_resetsemaphore.o)
+                              C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_message.o) (AvrXResetObjectSemaphore)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodqi4.o)
+                              c_startup.o (__udivmodqi4)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodhi4.o)
+                              c_startup.o (__udivmodhi4)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_exit.o)
+                              c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o (exit)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_clear_bss.o)
+                              c_startup.o (__do_clear_bss)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(eerd_word.o)
+                              gear.o (__eerd_word)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(eewr_word.o)
+                              gear.o (__eewr_word)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(sprintf.o)
+                              c_startup.o (sprintf)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                              c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(sprintf.o) (vfprintf)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                              c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen_P)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                              c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+                              c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (fputc)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                              c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (__ultoa_invert)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_prologue.o)
+                              c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(sprintf.o) (__prologue_saves__)
+c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_epilogue.o)
+                              c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(sprintf.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+_TimerQueue         0x2               C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+_TimQLevel          0x1               C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+ClockTaskTimer      0x6               c_startup.o
+Speed               0x1               gear.o
+Distance            0x2               gear.o
+DistanceTripMode    0x1               gear.o
+Consumption_Dec     0x1               ADC.o
+MainTaskTimer       0x6               c_startup.o
+GearAdvisorMode     0x1               gear.o
+GearType            0x1               gear.o
+ClockTaskPid        0x6               c_startup.o
+month               0x1               clock.o
+AvrXKernelData      0x7               C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+GearTaskStk         0x55              c_startup.o
+ADCTaskTimer        0x6               c_startup.o
+Gear                0x1               gear.o
+RPM                 0x2               gear.o
+TWIStopped          0x1               TWI.o
+GearTaskTimer       0x6               c_startup.o
+ADCTaskPid          0x6               c_startup.o
+Consumption         0x2               ADC.o
+GearTaskPid         0x6               c_startup.o
+LCDInitTimer        0x6               lcd_diver.o
+MainTaskStk         0xeb              c_startup.o
+ADCTaskStk          0x55              c_startup.o
+seconds             0x1               clock.o
+TouchScreenValueY   0x2               touchscreen_driver.o
+ClockTaskStk        0xeb              c_startup.o
+LCDFrameBuffer      0xc80             lcd_diver.o
+year                0x1               clock.o
+FuelMode            0x1               ADC.o
+day                 0x1               clock.o
+tobeAdjusted        0x1               clock.o
+date                0x1               clock.o
+Range               0x2               ADC.o
+MainTaskPid         0x6               c_startup.o
+TouchScreenValueX   0x2               touchscreen_driver.o
+minutes             0x1               clock.o
+hours               0x1               clock.o
+FuelLevel           0x2               ADC.o
+Trip                0x2               gear.o
+TWIByte             0x1               TWI.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o
+LOAD c_startup.o
+LOAD lcd_diver.o
+LOAD touchscreen_driver.o
+LOAD clock.o
+LOAD ADC.o
+LOAD TWI.o
+LOAD gear.o
+LOAD f_meter.o
+LOAD C:\Users\Lenovo\Desktop\bc\avrx.o
+LOAD c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a
+LOAD c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a
+LOAD c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x64d2
+ *(.vectors)
+ .vectors       0x00000000       0x94 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x00000094       0x28 lcd_diver.o
+ *(.progmem*)
+ .progmem.data  0x000000bc       0xe1 c_startup.o
+                0x0000018f                GearTaskTcb
+                0x00000106                km
+                0x00000109                days
+                0x000000ce                perc
+                0x00000101                trip
+                0x00000196                MainTaskTcb
+                0x000000c9                temp
+                0x000000bc                kmh
+                0x000000ef                distance
+                0x000000f8                clr_distance
+                0x000000c4                fuel
+                0x00000158                pointers3
+                0x000000e3                lph2
+                0x000000c0                rpm
+                0x000000e7                kmleft
+                0x00000181                ClockTaskTcb
+                0x000000de                dpoint
+                0x000000d0                litre
+                0x00000171                adjust
+                0x00000188                ADCTaskTcb
+                0x00000155                pointers2
+                0x0000015c                spaces20
+                0x000000e0                lph1
+                0x000000d2                cons
+                0x00000125                months
+ .progmem.data  0x0000019d     0x1b6d lcd_diver.o
+                0x000017f2                array9
+                0x00001cc5                array19
+                0x00001bad                array16
+                0x00001bec                array18
+                0x00001cda                array20
+                0x000004ed                screen
+                0x00001763                array7
+                0x00001bc2                array17
+                0x00001b20                array14
+                0x000016ef                array2
+                0x0000049d                SizeWidthValues
+                0x0000154b                SmallDigit
+                0x00001940                array13
+                0x0000172f                array4
+                0x0000019d                Font8x8
+                0x00001b83                array15
+                0x00001850                array12
+                0x00001737                array6
+                0x0000178f                array8
+                0x00001d06                array21
+                0x0000183c                array11
+                0x00001733                array5
+                0x00001812                array10
+                0x0000170f                array3
+                0x0000116d                BigDigit
+ .progmem.data  0x00001d0a     0x11a0 gear.o
+                0x00002e96                GearIndexR
+                0x00001d0a                GearLimits
+                0x00002d6a                GearIndex
+                0x00002e1e                GearLimitsR
+                0x00002eaa                . = ALIGN (0x2)
+                0x00002eaa                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00002eaa        0x0 linker stubs
+ *(.trampolines*)
+                0x00002eaa                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00002eaa                __ctors_start = .
+ *(.ctors)
+                0x00002eaa                __ctors_end = .
+                0x00002eaa                __dtors_start = .
+ *(.dtors)
+                0x00002eaa                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00002eaa        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o
+                0x00002eaa                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00002eaa        0xc c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00002eb6       0x1a c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o
+                0x00002eb6                __do_copy_data
+ .init4         0x00002ed0       0x10 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_clear_bss.o)
+                0x00002ed0                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00002ee0        0x8 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o
+ *(.init9)
+ *(.text)
+ .text          0x00002ee8        0x4 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o
+                0x00002ee8                __vector_22
+                0x00002ee8                __vector_28
+                0x00002ee8                __vector_1
+                0x00002ee8                __vector_32
+                0x00002ee8                __vector_34
+                0x00002ee8                __vector_24
+                0x00002ee8                __vector_12
+                0x00002ee8                __bad_interrupt
+                0x00002ee8                __vector_6
+                0x00002ee8                __vector_31
+                0x00002ee8                __vector_3
+                0x00002ee8                __vector_23
+                0x00002ee8                __vector_30
+                0x00002ee8                __vector_25
+                0x00002ee8                __vector_11
+                0x00002ee8                __vector_13
+                0x00002ee8                __vector_19
+                0x00002ee8                __vector_7
+                0x00002ee8                __vector_27
+                0x00002ee8                __vector_33
+                0x00002ee8                __vector_4
+                0x00002ee8                __vector_9
+                0x00002ee8                __vector_2
+                0x00002ee8                __vector_21
+                0x00002ee8                __vector_15
+                0x00002ee8                __vector_36
+                0x00002ee8                __vector_29
+                0x00002ee8                __vector_8
+                0x00002ee8                __vector_26
+                0x00002ee8                __vector_14
+                0x00002ee8                __vector_16
+                0x00002ee8                __vector_18
+                0x00002ee8                __vector_20
+ .text          0x00002eec      0xc12 c_startup.o
+                0x000033fe                ADCTask
+                0x00003a52                __vector_35
+                0x00003a3a                __vector_17
+                0x0000301a                GearTask
+                0x00003aae                __vector_5
+                0x00002eec                main
+                0x00002f44                MainTask
+                0x00003a2e                __vector_10
+                0x0000358a                ClockTask
+ .text          0x00003afe     0x13da lcd_diver.o
+                0x00004230                LCDStart
+                0x00004cce                LCDWriteDigit
+                0x000041e6                LCDClearScreen
+                0x00004282                LCDWriteStr
+                0x0000461e                LCDWriteStrP
+                0x00003b64                LCDInitialize
+                0x000049a6                LCDWriteCharP
+                0x00003afe                LCDTick
+                0x000041fc                LCDStop
+                0x00003e9a                LCDCopyScreen
+                0x00003fd8                LCDWriteIcon
+                0x00003eba                LCDWriteDigit_
+                0x00003b78                LCDWriteChar
+ .text          0x00004ed8      0x266 touchscreen_driver.o
+                0x0000500a                TouchScreenMeasure
+                0x00004f12                Init
+                0x00004fa0                Measure
+                0x00004f84                TouchScreenStart
+                0x00004ed8                TouchScreenInit
+                0x00004f90                TouchScreenStop
+ .text          0x0000513e      0x12e clock.o
+                0x0000516e                ClockStop
+                0x000051c8                ClockTick
+                0x0000513e                ClockInit
+                0x00005174                EndOfMonth
+                0x00005166                ClockStart
+ .text          0x0000526c      0x1ec ADC.o
+                0x0000526c                InitADC
+                0x000052aa                MeasureADC
+                0x0000537e                DetermineConsumption
+ .text          0x00005458       0x5c TWI.o
+                0x00005470                TWIStart
+                0x000054a4                TWISLA
+                0x00005458                TWIInit
+                0x00005486                TWIStop
+ .text          0x000054b4      0x318 gear.o
+                0x0000570a                ClearTrip
+                0x00005746                SaveTripDist
+                0x000054dc                DetermineGear
+                0x00005714                ReadTripDist
+                0x000056d8                DetermineRPM
+                0x00005666                DetermineSpeed
+                0x00005778                InitGear
+ .text          0x000057cc      0x2c8 f_meter.o
+                0x000058f2                FMeterInit
+                0x0000596e                FMeterReadLastMeasurement
+                0x000058ba                FMeterIntTick
+                0x000058c6                FMeterStopMeasurement
+                0x000057cc                Filter
+                0x00005968                FMeterGetMeasurementStatus
+                0x000059c4                FMeterTick
+                0x00005938                FMeterStartMeasurement
+ .text          0x00005a94        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_tasking.o)
+ .text          0x00005a94        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_timequeue.o)
+ .text          0x00005a94        0x4 C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+                0x00005a94                AvrXHalt
+ .text          0x00005a98        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_semaphores.o)
+ .text          0x00005a98        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_message.o)
+ .text          0x00005a98        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_resetsemaphore.o)
+ .text          0x00005a98        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .text          0x00005a98        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text          0x00005a98        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_exit.o)
+ .text          0x00005a98        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00005a98       0x2c c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(eerd_word.o)
+                0x00005a98                __eerd_word
+ .text          0x00005ac4       0x2a c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(eewr_word.o)
+                0x00005ac4                __eewr_word
+ .text          0x00005aee       0x46 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(sprintf.o)
+                0x00005aee                sprintf
+ .text          0x00005b34      0x3be c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                0x00005b34                vfprintf
+ .text          0x00005ef2       0x16 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x00005ef2                strnlen_P
+ .text          0x00005f08       0x16 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x00005f08                strnlen
+ .text          0x00005f1e       0x58 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x00005f1e                fputc
+ .text          0x00005f76       0xbc c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x00005f76                __ultoa_invert
+ .text          0x00006032        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_prologue.o)
+ .text          0x00006032        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_epilogue.o)
+                0x00006032                . = ALIGN (0x2)
+ *(.text.*)
+ .text.avrx.avrx_tasking
+                0x00006032      0x1d4 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_tasking.o)
+                0x00006154                AvrXRunTask
+                0x0000619e                AvrXResume
+                0x000060ce                _Epilog
+                0x00006158                AvrXInitTask
+                0x00006032                IntProlog
+                0x0000613c                AvrXSetKernelStack
+                0x000061ba                _QueuePid
+                0x000060ca                Epilog
+ .text.avrx.avrx_timequeue
+                0x00006206       0xe2 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_timequeue.o)
+                0x00006206                AvrXDelay
+                0x0000620a                AvrXStartTimer
+                0x00006212                CountNotZero
+                0x00006260                AvrXTimerHandler
+ .text.avrx.avrx_semaphores
+                0x000062e8       0xe2 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_semaphores.o)
+                0x000062e8                AvrXWaitTimer
+                0x00006316                AvrXSetObjectSemaphore
+                0x00006316                AvrXAckMessage
+                0x000062e8                AvrXWaitObjectSemaphore
+                0x000062ec                AvrXWaitSemaphore
+                0x00006334                AvrXIntSetSemaphore
+                0x000063a4                _RemoveObjectAt
+                0x000062e8                AvrXWaitMessageAck
+                0x00006330                AvrXIntSetObjectSemaphore
+                0x00006398                _RemoveFirstObject
+                0x000062e8                AvrXWaitTask
+                0x0000636a                _AppendObject
+                0x00006386                _RemoveObject
+                0x0000631a                AvrXSetSemaphore
+ .text.avrx.avrx_message
+                0x000063ca       0x34 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_message.o)
+                0x000063d4                AvrXIntSendMessage
+                0x000063e2                AvrXWaitMessage
+                0x000063ca                AvrXSendMessage
+ .text.avrx.avrx_resetsemaphore
+                0x000063fe       0x22 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_resetsemaphore.o)
+                0x000063fe                AvrXResetObjectSemaphore
+                0x00006406                AvrXIntResetSemaphore
+                0x00006406                AvrXResetSemaphore
+                0x000063fe                AvrXIntResetObjectSemaphore
+ .text.libgcc   0x00006420       0x18 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodqi4.o)
+                0x00006420                __udivmodqi4
+ .text.libgcc   0x00006438       0x28 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodhi4.o)
+                0x00006438                __udivmodhi4
+ .text.libgcc   0x00006460        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00006460        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00006460       0x38 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_prologue.o)
+                0x00006460                __prologue_saves__
+ .text.libgcc   0x00006498       0x36 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_epilogue.o)
+                0x00006498                __epilogue_restores__
+                0x000064ce                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000064ce        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_exit.o)
+                0x000064ce                exit
+                0x000064ce                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000064ce        0x4 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000064d2                _etext = .
+
+.data           0x00800100       0x16 load address 0x000064d2
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o
+ .data          0x00800100       0x14 c_startup.o
+ .data          0x00800114        0x0 lcd_diver.o
+ .data          0x00800114        0x0 touchscreen_driver.o
+ .data          0x00800114        0x0 clock.o
+ .data          0x00800114        0x0 ADC.o
+ .data          0x00800114        0x0 TWI.o
+ .data          0x00800114        0x0 gear.o
+ .data          0x00800114        0x1 f_meter.o
+ .data          0x00800115        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_tasking.o)
+ .data          0x00800115        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_timequeue.o)
+ .data          0x00800115        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+ .data          0x00800115        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_semaphores.o)
+ .data          0x00800115        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_message.o)
+ .data          0x00800115        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_resetsemaphore.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_exit.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(eerd_word.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(eewr_word.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(sprintf.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_prologue.o)
+ .data          0x00800115        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800116                . = ALIGN (0x2)
+ *fill*         0x00800115        0x1 00
+                0x00800116                _edata = .
+                0x00800116                PROVIDE (__data_end, .)
+
+.bss            0x00800116      0xf8c load address 0x000064e8
+                0x00800116                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800116        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51/crtcan128.o
+ .bss           0x00800116        0x7 c_startup.o
+ .bss           0x0080011d        0x3 lcd_diver.o
+ .bss           0x00800120        0x1 touchscreen_driver.o
+ .bss           0x00800121        0x1 clock.o
+ .bss           0x00800122        0x0 ADC.o
+ .bss           0x00800122        0x0 TWI.o
+ .bss           0x00800122        0x0 gear.o
+ .bss           0x00800122       0x1f f_meter.o
+ .bss           0x00800141        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_tasking.o)
+ .bss           0x00800141        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_timequeue.o)
+ .bss           0x00800141        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+ .bss           0x00800141        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_semaphores.o)
+ .bss           0x00800141        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_message.o)
+ .bss           0x00800141        0x0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_resetsemaphore.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_exit.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(eerd_word.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(eewr_word.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(sprintf.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_prologue.o)
+ .bss           0x00800141        0x0 c:/winavr-20080610/bin/../lib/gcc/avr/4.3.0/avr51\libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800141      0x2b0 c_startup.o
+                0x00800141                ClockTaskTimer
+                0x00800147                MainTaskTimer
+                0x0080014d                ClockTaskPid
+                0x00800153                GearTaskStk
+                0x008001a8                ADCTaskTimer
+                0x008001ae                GearTaskTimer
+                0x008001b4                ADCTaskPid
+                0x008001ba                GearTaskPid
+                0x008001c0                MainTaskStk
+                0x008002ab                ADCTaskStk
+                0x00800300                ClockTaskStk
+                0x008003eb                MainTaskPid
+ COMMON         0x008003f1      0xc86 lcd_diver.o
+                0x008003f1                LCDInitTimer
+                0x008003f7                LCDFrameBuffer
+ COMMON         0x00801077        0x4 touchscreen_driver.o
+                0x00801077                TouchScreenValueY
+                0x00801079                TouchScreenValueX
+ COMMON         0x0080107b        0x8 clock.o
+                0x0080107b                month
+                0x0080107c                seconds
+                0x0080107d                year
+                0x0080107e                day
+                0x0080107f                tobeAdjusted
+                0x00801080                date
+                0x00801081                minutes
+                0x00801082                hours
+ COMMON         0x00801083        0x8 ADC.o
+                0x00801083                Consumption_Dec
+                0x00801084                Consumption
+                0x00801086                FuelMode
+                0x00801087                Range
+                0x00801089                FuelLevel
+ COMMON         0x0080108b        0x2 TWI.o
+                0x0080108b                TWIStopped
+                0x0080108c                TWIByte
+ COMMON         0x0080108d        0xb gear.o
+                0x0080108d                Speed
+                0x0080108e                Distance
+                0x00801090                DistanceTripMode
+                0x00801091                GearAdvisorMode
+                0x00801092                GearType
+                0x00801093                Gear
+                0x00801094                RPM
+                0x00801096                Trip
+ COMMON         0x00801098        0xa C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+                0x00801098                _TimerQueue
+                0x0080109a                _TimQLevel
+                0x0080109b                AvrXKernelData
+                0x008010a2                PROVIDE (__bss_end, .)
+                0x000064d2                __data_load_start = LOADADDR (.data)
+                0x000064e8                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008010a2        0x0
+                0x008010a2                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008010a2                PROVIDE (__noinit_end, .)
+                0x008010a2                _end = .
+                0x008010a2                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x19f8
+ *(.stab)
+ .stab          0x00000000      0xbd0 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_tasking.o)
+ .stab          0x00000bd0      0x528 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_timequeue.o)
+                                0x534 (size before relaxing)
+ .stab          0x000010f8      0x654 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_semaphores.o)
+                                0x660 (size before relaxing)
+ .stab          0x0000174c      0x18c C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_message.o)
+                                0x198 (size before relaxing)
+ .stab          0x000018d8      0x120 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_resetsemaphore.o)
+                                0x12c (size before relaxing)
+
+.stabstr        0x00000000      0x333
+ *(.stabstr)
+ .stabstr       0x00000000      0x333 C:\Users\Lenovo\Desktop\bc\avrx.o(avrx_tasking.o)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x120
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 c_startup.o
+ .debug_aranges
+                0x00000020       0x20 lcd_diver.o
+ .debug_aranges
+                0x00000040       0x20 touchscreen_driver.o
+ .debug_aranges
+                0x00000060       0x20 clock.o
+ .debug_aranges
+                0x00000080       0x20 ADC.o
+ .debug_aranges
+                0x000000a0       0x20 TWI.o
+ .debug_aranges
+                0x000000c0       0x20 gear.o
+ .debug_aranges
+                0x000000e0       0x20 f_meter.o
+ .debug_aranges
+                0x00000100       0x20 C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+
+.debug_pubnames
+                0x00000000      0x929
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x272 c_startup.o
+ .debug_pubnames
+                0x00000272      0x23b lcd_diver.o
+ .debug_pubnames
+                0x000004ad       0xa7 touchscreen_driver.o
+ .debug_pubnames
+                0x00000554       0xb1 clock.o
+ .debug_pubnames
+                0x00000605       0x8f ADC.o
+ .debug_pubnames
+                0x00000694       0x5d TWI.o
+ .debug_pubnames
+                0x000006f1      0x128 gear.o
+ .debug_pubnames
+                0x00000819       0xbf f_meter.o
+ .debug_pubnames
+                0x000008d8       0x51 C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+
+.debug_info     0x00000000     0x27d9
+ *(.debug_info)
+ .debug_info    0x00000000      0x807 c_startup.o
+ .debug_info    0x00000807      0xf82 lcd_diver.o
+ .debug_info    0x00001789      0x274 touchscreen_driver.o
+ .debug_info    0x000019fd      0x186 clock.o
+ .debug_info    0x00001b83      0x14e ADC.o
+ .debug_info    0x00001cd1       0xf7 TWI.o
+ .debug_info    0x00001dc8      0x619 gear.o
+ .debug_info    0x000023e1      0x28a f_meter.o
+ .debug_info    0x0000266b      0x16e C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xb4c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1ad c_startup.o
+ .debug_abbrev  0x000001ad      0x2b2 lcd_diver.o
+ .debug_abbrev  0x0000045f      0x13e touchscreen_driver.o
+ .debug_abbrev  0x0000059d       0xa5 clock.o
+ .debug_abbrev  0x00000642       0xb2 ADC.o
+ .debug_abbrev  0x000006f4       0x83 TWI.o
+ .debug_abbrev  0x00000777      0x218 gear.o
+ .debug_abbrev  0x0000098f      0x13d f_meter.o
+ .debug_abbrev  0x00000acc       0x80 C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+
+.debug_line     0x00000000     0x22bb
+ *(.debug_line)
+ .debug_line    0x00000000      0x950 c_startup.o
+ .debug_line    0x00000950      0xae4 lcd_diver.o
+ .debug_line    0x00001434      0x31d touchscreen_driver.o
+ .debug_line    0x00001751      0x1dc clock.o
+ .debug_line    0x0000192d      0x1b3 ADC.o
+ .debug_line    0x00001ae0       0xf9 TWI.o
+ .debug_line    0x00001bd9      0x327 gear.o
+ .debug_line    0x00001f00      0x350 f_meter.o
+ .debug_line    0x00002250       0x6b C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+
+.debug_frame    0x00000000      0x430
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xa0 c_startup.o
+ .debug_frame   0x000000a0       0xe0 lcd_diver.o
+ .debug_frame   0x00000180       0x70 touchscreen_driver.o
+ .debug_frame   0x000001f0       0x60 clock.o
+ .debug_frame   0x00000250       0x40 ADC.o
+ .debug_frame   0x00000290       0x50 TWI.o
+ .debug_frame   0x000002e0       0xa0 gear.o
+ .debug_frame   0x00000380       0x90 f_meter.o
+ .debug_frame   0x00000410       0x20 C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+
+.debug_str      0x00000000      0x98b
+ *(.debug_str)
+ .debug_str     0x00000000      0x366 c_startup.o
+                                0x3e6 (size before relaxing)
+ .debug_str     0x00000366      0x218 lcd_diver.o
+                                0x32b (size before relaxing)
+ .debug_str     0x0000057e       0x78 touchscreen_driver.o
+                                0x152 (size before relaxing)
+ .debug_str     0x000005f6       0x59 clock.o
+                                 0xfd (size before relaxing)
+ .debug_str     0x0000064f       0x41 ADC.o
+                                0x11f (size before relaxing)
+ .debug_str     0x00000690       0x32 TWI.o
+                                 0xee (size before relaxing)
+ .debug_str     0x000006c2       0xdb gear.o
+                                0x1f5 (size before relaxing)
+ .debug_str     0x0000079d      0x172 f_meter.o
+                                0x228 (size before relaxing)
+ .debug_str     0x0000090f       0x7c C:\Users\Lenovo\Desktop\bc\avrx.o(AvrXKernel.o)
+                                0x111 (size before relaxing)
+
+.debug_loc      0x00000000     0x1169
+ *(.debug_loc)
+ .debug_loc     0x00000000      0xaa1 lcd_diver.o
+ .debug_loc     0x00000aa1       0x5f touchscreen_driver.o
+ .debug_loc     0x00000b00       0x7d clock.o
+ .debug_loc     0x00000b7d       0x7e ADC.o
+ .debug_loc     0x00000bfb       0x13 TWI.o
+ .debug_loc     0x00000c0e      0x49e gear.o
+ .debug_loc     0x000010ac       0xbd f_meter.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(bc.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0x400
+ .debug_ranges  0x00000000      0x3a0 lcd_diver.o
+ .debug_ranges  0x000003a0       0x60 gear.o
